@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘은;감성일기사이트</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1 class="jm-font" style="font-size: 70px;">
+        <span class="main-text">오늘은,</span><span class="sub-text" style="font-size: 24px;">rkaj</span>
+    </h1>
+    <hr/>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="howToUse.html">How To Use</a></li> 
+            <li><a href="write.html">Write</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- 첫 번째 슬라이더 -->
+    <div class="slider-container">
+        <div class="arrow prev">&#10094;</div>
+        <img src="1.jpg" alt="Image 1" class="slide">
+        <img src="2.jpg" alt="Image 2" class="slide">
+        <img src="3.jpg" alt="Image 3" class="slide">
+        <img src="4.jpg" alt="Image 4" class="slide">
+        <img src="5.jpg" alt="Image 5" class="slide">
+        <img src="6.jpg" alt="Image 6" class="slide">
+        <div class="arrow next">&#10095;</div>
+    </div>
+
+    <!-- 달력 -->
+    <div class="calendar">
+        <!-- 여기에 달력이 표시됩니다 -->
+    </div>
+    <!-- 첫 번째 슬라이더 -->
+    <div class="slider-container">
+    <!-- 슬라이더 이미지들이 들어갑니다 -->
+    </div>
+
+    <hr class="line-below-slider">
+    <h2 class="jm-font">이전글</h2>
+
+    <a href="write.html" class="fixed-button" id="fixedButton">
+        <img src="button.png" alt="버튼">
+    </a>
+    <script src="slide.js"></script>
+    <script src="calendar.js"></script>
+    <script src="randomText.js" defer></script>
+
+    <button onclick="location.href='questions.html'">questions</button>
+    
+</body>
+</html>

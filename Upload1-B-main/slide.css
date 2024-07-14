@@ -1,0 +1,35 @@
+/* 슬라이더 컨테이너 스타일 */
+.slider-container {
+    position: relative;
+    max-width: 70%; /* 사진의 최대 너비를 화면 너비의 70%로 설정 */
+    margin: auto;
+    overflow: hidden;
+    float: left; /* 왼쪽에 배치 */
+}
+
+/* 슬라이드 이미지 스타일 */
+.slide {
+    width: 100%; /* 슬라이드 이미지가 부모 요소인 slider-container의 너비를 따르도록 설정 */
+    height: 600px; /* 고정된 높이 설정 */
+    object-fit: cover;
+    display: none; /* 모든 슬라이드 숨김 */
+    margin-right: 5%; /* 사진과 달력 사이에 여백 */
+    margin-left: 5%;
+}
+
+/* 화살표 스타일 */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1; /* 다른 요소 위에 표시되도록 설정 */
+    background-color: rgba(255, 255, 255, 0.5); /* 배경 투명도 추가 */
+}
+.prev {
+    left: 5%;
+}
+.next {
+    right: 0%;
+}
