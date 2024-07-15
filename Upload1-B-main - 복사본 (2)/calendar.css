@@ -1,0 +1,18 @@
+/* 달력 스타일 */
+.calendar {
+    width: 25%; /* 달력 테이블의 가로 길이를 조정 */
+    float: right; /* 오른쪽에 배치 */
+    margin-top: 10px; /* 사진 위에 여백 설정 */
+    margin-left: 5%; /* 사진과 달력 사이의 간격 설정 */
+}
+/* 달력 내 셀(날짜)의 스타일 */
+.calendar td {
+    padding: 15px; /* 셀(날짜)의 여백을 설정합니다. */
+    background-color: #DADADA; /* 달력 내 셀의 배경색 변경 */
+    border: 1px solid #ccc; /* 셀(날짜)의 테두리 추가 */
+}
+
+/* 달력 내 셀(날짜)에 마우스 오버 시 스타일 */
+.calendar td:hover {
+    background-color: #F7F0C6; /* 마우스 오버 시 배경색상 변경 */
+}
